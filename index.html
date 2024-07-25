@@ -117,7 +117,7 @@
                                             <hr class="my-2" />
                                             <div class="items">
                                                 <i class="fa-solid fa-check"></i>
-                                                <span>Aprobación en minutos</span>
+                                                <span>Pre aprobación en minutos</span>
                                             </div>
                                             <div class="items">
                                                 <i class="fa-solid fa-check"></i>
@@ -125,11 +125,15 @@
                                             </div>
                                             <div class="items">
                                                 <i class="fa-solid fa-check"></i>
-                                                <span> Tasa de interés desde el 2% NMV</span>
+                                                <span> Tasa de interés competitiva</span>
                                             </div>
                                             <div class="items">
                                                 <i class="fa-solid fa-check"></i>
-                                                <span>Sin letra pequeña</span>
+                                                <span>Sin cláusulas escondidas</span>
+                                            </div>
+                                            <div class="items">
+                                                <i class="fa-solid fa-check"></i>
+                                                <span>Nuestros términos son claros</span>
                                             </div>
                                             <div class="items">
                                                 <i class="fa-solid fa-check"></i>
@@ -155,15 +159,15 @@
                                             </div>
                                             <div class="items">
                                                 <i class="fa-solid fa-2"></i>
-                                                <span>Ser mayor de 18 años</span>
+                                                <span>Ser colombiano mayor de 18 años</span>
                                             </div>
                                             <div class="items">
                                                 <i class="fa-solid fa-3"></i>
-                                                <span> Ser el titular de la motocicleta</span>
+                                                <span> Ser el propietario de la motocicleta</span>
                                             </div>
                                             <div class="items">
                                                 <i class="fa-solid fa-4"></i>
-                                                <span>Antigüedad de la moto menor a 7 años</span>
+                                                <span>Modelo de la moto superior a 2018</span>
                                             </div>
                                             <div class="items">
                                                 <i class="fa-solid fa-5"></i>
@@ -176,6 +180,10 @@
                                             <div class="items">
                                                 <i class="fa-solid fa-7"></i>
                                                 <span>Tener un celular con cámara</span>
+                                            </div>
+                                            <div class="items">
+                                                <i class="fa-solid fa-7"></i>
+                                                <span>Tener correo electrónico</span>
                                             </div>
                                         </div>
                                     </div>
@@ -253,20 +261,10 @@
                                                 </fieldset>
                                             </div>
                                             <div class="form_boxes">
-                                                <div class="drop-menu input-box">
-                                                    <label>Tipo de documento</label>
-                                                    <div class="select">
-                                                        <span>Selecciona</span>
-                                                        <i class="fa fa-angle-down"></i>
-                                                    </div>
-                                                    <input type="hidden" name="gender" />
-                                                    <ul class="dropdown" style="display: none">
-                                                        <li>CC</li>
-                                                        <li>Nit</li>
-                                                        <li>Pasaporte</li>
-                                                        <li>T.I</li>
-                                                    </ul>
-                                                </div>
+                                                <fieldset class="input-box">
+                                                    <label for="">Tipo de documento</label>
+                                                    <input type="text" placeholder="CC" disabled/>
+                                                </fieldset>
                                             </div>
                                             <div class="form_boxes">
                                                 <fieldset class="input-box">
@@ -290,7 +288,7 @@
                                                     </h6>
                                                     <div class="text">Modelo 2024</div>
                                                     <div class="card-list">
-                                                        <span>¿ Cuánto dinero necesitas?</span>
+                                                        <span>Te prestamos hasta</span>
                                                         <h6 class="text-center fw-bold mb-0">
                                                             $15.000.000
                                                         </h6>
@@ -307,7 +305,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="card-list">
-                                                        <span>Plazo de  90 días con posibilidad de prorroga o prepago</span>
+                                                        <span>Plazo</span>
                                                         <h6 class="text-center fw-bold mb-0">
                                                             90 días
                                                         </h6>
@@ -462,45 +460,6 @@
     </div>
     </div>
     </section>
-
-
-    <section class="calculater-section">
-        <div class="boxcar-container">
-            <div class="row">
-                <!-- content-column -->
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="inner-column wow fadeInUp">
-                        <div class="boxcar-title">
-                            <h2 class="text-center">¿Como funciona?</h2>
-                            <hr />
-                            <div class="text">
-                                Integrados con el Banco Unión y Automas, avalamos y custodiamos motos almacenándolas en instalaciones propias totalmente aseguradas para el acceso a crédito inmediato.
-                            </div>
-                        </div>
-                        <div class="image-box">
-                            <figure class="image">
-                                <img src="images/resource/infograma-motocash.webp" alt="Infografia de como funciona" />
-                            </figure>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-12 text-center mt-4">
-                    <a href="#" class="read-more wow fadeInUp" data-wow-delay="200ms">Simular  Credito<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewbox="0 0 14 14" fill="none">
-                        <g clip-path="url(#clip0_634_2156)">
-                        <path d="M13.6106 0H5.05509C4.84013 0 4.66619 0.173943 4.66619 0.388901C4.66619 0.603859 4.84013 0.777802 5.05509 0.777802H12.6719L0.113453 13.3362C-0.0384687 13.4881 -0.0384687 13.7342 0.113453 13.8861C0.189396 13.962 0.288927 14 0.388422 14C0.487917 14 0.587411 13.962 0.663391 13.8861L13.2218 1.3277V8.94447C13.2218 9.15943 13.3957 9.33337 13.6107 9.33337C13.8256 9.33337 13.9996 9.15943 13.9996 8.94447V0.388901C13.9995 0.173943 13.8256 0 13.6106 0Z" fill="white"></path>
-                        </g>
-                        <defs>
-                        <clippath id="clip0_634_2156">
-                            <rect width="14" height="14" fill="white"></rect>
-                        </clippath>
-                        </defs>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="boxcar-pricing-section-four">
         <div class="boxcar-container">
             <div class="row  align-items-start">
@@ -527,18 +486,18 @@
                     </div>
                     <div class="">
                         <ul class="list-style-one wow fadeInUp" data-wow-delay="100ms">
-                            <li><i class="fa-solid fa-check"></i>Ingresa al link www.motocash.co</li>
-                            <li><i class="fa-solid fa-check"></i>Ingresa los datos de tu moto para consultar cuanto te podríamos prestar</li>
-                            <li><i class="fa-solid fa-check"></i>Elige el monto a solicitar y visualiza los costos del crédito</li>
-                            <li><i class="fa-solid fa-check"></i>Confirma tú datos personales</li>
-                            <li><i class="fa-solid fa-check"></i>Validaremos tu número de teléfono y tu identidad</li>
-                            <li><i class="fa-solid fa-check"></i>Pre aprobación del crédito </li>
-                            <li><i class="fa-solid fa-check"></i>Llevaras tu moto a la sede asignada de AUTOMAS para un peritaje</li>
-                            <li><i class="fa-solid fa-check"></i>Firma de documentos requeridos para el crédito</li>
-                            <li><i class="fa-solid fa-check"></i>Autenticar documentos</li>
-                            <li><i class="fa-solid fa-check"></i>Recoger dinero en Banco Unión</li>
-                            <li><i class="fa-solid fa-check"></i>Paga tu crédito en Banco Unión</li>
-                            <li><i class="fa-solid fa-check"></i>Recoge tu moto</li>
+                            <li><i class="fa-solid fa-check"></i>Ingresa a nuestro sitio web.</li>
+                            <li><i class="fa-solid fa-check"></i>Ingresa los datos de tu moto para saber cuánto te podríamos prestar.</li>
+                            <li><i class="fa-solid fa-check"></i>Selecciona el monto que deseas solicitar y visualiza los costos del crédito.</li>
+                            <li><i class="fa-solid fa-check"></i>Completa y verifica tus datos personales.</li>
+                            <li><i class="fa-solid fa-check"></i>Valida tu número de teléfono y tu identidad.</li>
+                            <li><i class="fa-solid fa-check"></i>Recibe una pre aprobación de tu crédito. </li>
+                            <li><i class="fa-solid fa-check"></i>Lleva tu moto a la sede asignada de AUTOMAS para un peritaje.</li>
+                            <li><i class="fa-solid fa-check"></i>Firma los documentos requeridos para el crédito</li>
+                            <li><i class="fa-solid fa-check"></i>Autentica los documentos necesarios de tramite</li>
+                            <li><i class="fa-solid fa-check"></i>Recoge el dinero en Banco Unión</li>
+                            <li><i class="fa-solid fa-check"></i>Realiza los pagos de tu crédito en Banco Unión.</li>
+                            <li><i class="fa-solid fa-check"></i>Una vez finalizado el proceso, podrás recoger tu moto.</li>
                         </ul>
                         <div class="row justify-content-center mt-2">
                             <div class="col-md-6">
@@ -757,7 +716,7 @@
                                 <div class="acc-content current">
                                     <div class="content">
                                         <div class="text">
-                                            Nuestro plazos son fijos a 90 dias con posibilidad de prorrogar otros 90 dias o prepagar.
+                                            Nuestro plazos son fijos a 90 dias.
                                         </div>
                                     </div>
                                 </div>
@@ -806,30 +765,6 @@
                                         <div class="text">
                                             Nuestros desembolsos son en efectivo en cualquier oficina del Banco Unión, nuestro proceso puede tardar hasta 5 horas.
                                         </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="accordion block">
-                                <div class="acc-btn">
-                                    ¿Cómo puedo prepagar mi crédito?
-                                    <div class="icon fa fa-plus"></div>
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">
-                                            Para prepagar tu crédito te debe dirigir a cualquier oficina del banco Union y con tu # de crédito podrás realizar el pago para obtener tu Paz y salvo.
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="accordion block">
-                                <div class="acc-btn">
-                                    ¿Cómo puedo solicitar una prorroga para mi crédito?
-                                    <div class="icon fa fa-plus"></div>
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">Respuesta</div>
                                     </div>
                                 </div>
                             </li>
