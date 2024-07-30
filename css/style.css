@@ -5211,19 +5211,20 @@ Section Title
 }
 
 .boxcar-banner-section-v1.banner-style-three {
-    background-image: url(../images/background/bg-3.jpeg);
+    background-image: url(../images/background/bg-5.png);
 }
 
-.boxcar-banner-section-v1.banner-style-three:before {
+
+/* .boxcar-banner-section-v1.banner-style-three:before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #050B20;
-    opacity: 0.4;
-}
+    background: #000000;
+    opacity: 0.6;
+} */
 
 .banner-style-three .banner-content-three .form-tab-content {
     position: relative;
@@ -5393,9 +5394,9 @@ a.btn.btn-outline-light.btn-more {
 }
 
 .btn-outline-light.btn-more:hover {
-    color: #aec11f;
-    background-color: #f8f9fa;
-    border-color: #b4cb1b;
+    background: #fff !important;
+    color: #000;
+    border-color: transparent;
 }
 
 .boxcar-banner-section-two .banner-slider .banner-slide .right-box {
@@ -5700,7 +5701,7 @@ a.btn.btn-outline-light.btn-more {
     bottom: -274px;
     right: 60px;
     border-radius: 16px;
-    width: 360px;
+    width: 100%;
     padding: 60px;
     background: rgba(255, 255, 255, 0.1);
     -webkit-backdrop-filter: blur(7.5px);
@@ -6948,10 +6949,20 @@ a.btn.btn-outline-light.btn-more {
 
 ***/
 
+section.boxcar-service-section.banner-style-four {
+    position: relative;
+    padding: 120px 0;
+    background-image: url(../images/background/bg-10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 9;
+}
+
 .brand-boxcar-banner-section {
     position: relative;
     padding: 211px 0 167px;
-    background-image: url(../images/background/her-motorcycle.jpeg);
+    background-image: url(../images/background/bg-9.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -14034,6 +14045,7 @@ a.btn.btn-outline-light.btn-more {
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
+    width: 100%;
 }
 
 .boxcar-service-section .content-column .inner-column .store img {
@@ -14056,6 +14068,7 @@ a.btn.btn-outline-light.btn-more {
     margin-top: -4px;
     margin-bottom: 0;
     line-height: 20px;
+    text-align: left;
 }
 
 .boxcar-service-section .content-column .inner-column .store .title::before {
@@ -14070,7 +14083,6 @@ a.btn.btn-outline-light.btn-more {
 
 .boxcar-service-section .content-column .inner-column .store.two {
     padding-right: 60px;
-    margin-left: 25px;
     background-color: var(--theme-color2);
 }
 
@@ -26427,7 +26439,8 @@ Chat Widget
         margin-bottom: 40px;
     }
     .boxcar-title .text {
-        display: none;
+        /* display: none; */
+        text-align: justify !important;
     }
     .boxcar-team-section-three .right-box {
         -ms-flex-wrap: wrap;
@@ -27109,6 +27122,10 @@ Chat Widget
     .boxcar-service-section .content-column .inner-column .title {
         font-size: 32px;
         line-height: 40px;
+        text-align: center;
+    }
+    .boxcar-service-section .content-column .inner-column .text {
+        text-align: justify;
     }
     .boxcar-service-section .content-column .inner-column .store span {
         font-size: 11px;
@@ -27116,6 +27133,10 @@ Chat Widget
     .brand-boxcar-banner-section .content-column .inner-column .title {
         font-size: 32px;
         line-height: 40px;
+        text-align: center;
+    }
+    .brand-boxcar-banner-section .content-column .inner-column .text {
+        text-align: justify;
     }
     .brand-boxcar-banner-section .content-column .inner-column .btn {
         padding: 0 30px;
@@ -27124,6 +27145,7 @@ Chat Widget
     }
     .boxcar-title h2 {
         font-size: 32px;
+        text-align: center;
     }
     .blog-blockt-two .inner-box .title {
         line-height: 36px;
@@ -28572,7 +28594,7 @@ Estilo al tab original
     .box-table-el,
     .messages-box-el,
     .wrap-range-el .widget-price {
-        margin-bottom: 60px;
+        margin-bottom: 10px;
     }
     .box-tabs-element-2 {
         margin-top: 40px;
@@ -29819,19 +29841,19 @@ span.sub-title.fadeInDown {
     width: 100%;
     z-index: 99;
     */
-    max-width: 470px;
     background: #fff;
     border-radius: 16px;
     padding: 20px;
-    margin-top: 0.5rem;
-    position: absolute;
-    top: 40%;
+    margin-top: 40px;
     width: 100%;
-    z-index: 1;
+    height: 680px !important;
 }
 
 h1.title-banner {
-    margin-top: 50%;
+    font-size: 50px;
+    color: var(--theme-color-light);
+    font-weight: 700;
+    line-height: normal;
 }
 
 .text-p {
@@ -29881,7 +29903,7 @@ span.sub-title.fadeInDown.text-banner {
 
 .list-box {
     border-radius: 16px;
-    width: 360px;
+    width: 100%;
     padding: 20px;
     background: #b4cb1b52;
     backdrop-filter: blur(7.5px);
@@ -30100,6 +30122,39 @@ a.read-more.wow.fadeInUp.animated {
     display: inline-block;
     color: var(--theme-color-light);
     border-color: #fff;
+    text-align: center;
+}
+
+a.btn-more {
+    font-weight: 500;
+    font-size: var(--h6-font-size);
+    font-family: var(--title-font);
+    display: inline-block;
+    line-height: 26px;
+    text-transform: capitalize;
+    padding: 20px 87px 18px;
+    border-radius: 12px;
+    background: var(--color-secondary, var(--theme-color2));
+    color: var(--theme-color-light);
+    border-color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+a.btn-more:hover {
+    font-weight: 500;
+    font-size: var(--h6-font-size);
+    font-family: var(--title-font);
+    display: inline-block;
+    line-height: 26px;
+    text-transform: capitalize;
+    padding: 20px 87px 18px;
+    border-radius: 12px;
+    background: var(--theme-color-dark);
+    color: var(--theme-color-light);
+    border-color: #fff;
+    width: 100%;
+    text-align: center;
 }
 
 .whatsapp {
@@ -30164,4 +30219,26 @@ ul.social-icon {
 
 .bg-light {
     background-color: #cfd0d033 !important;
+}
+
+.banner-thumbs {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+@media (max-width: 576px) {
+    h1.title-banner {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .box-tabs-element .nav-tab-el2 {
+        margin-bottom: 19px;
+        display: flex;
+        gap: 10px;
+        border-bottom: 0px solid rgba(225, 225, 225, 1);
+    }
 }
