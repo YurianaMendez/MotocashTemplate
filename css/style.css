@@ -6965,8 +6965,8 @@ a.btn.btn-outline-light.btn-more {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #050B20;
-    opacity: 0.3;
+    background: #ffffff;
+    opacity: 0.6;
     z-index: -1;
 }
 
@@ -29883,12 +29883,12 @@ span.sub-title.fadeInDown.text-banner {
     border-radius: 16px;
     width: 360px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
+    background: #b4cb1b52;
     backdrop-filter: blur(7.5px);
-    color: #fff;
+    color: var(--theme-color-dark);
     font-size: 16px;
     line-height: 30px;
-    margin-top: 1rem;
+    margin-top: 0;
 }
 
 i.fa-solid.fa-check {
@@ -29972,6 +29972,7 @@ button.theme-btn {
     padding: 10px 15px;
     border-radius: 12px;
     margin-bottom: 10px;
+    background-color: #cfd0d033;
 }
 
 .card-box .title {
@@ -29987,6 +29988,15 @@ button.theme-btn {
     font-size: 14px;
     margin-bottom: 0px;
     border-bottom: 1px solid #e1e1e1;
+}
+
+.card-box .text2 {
+    color: #343434;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    border-bottom: 0px solid #ffffff;
+    text-align: left;
 }
 
 .card-box .card-list {
@@ -30089,6 +30099,7 @@ a.read-more.wow.fadeInUp.animated {
     background: var(--color-secondary, var(--theme-color2));
     display: inline-block;
     color: var(--theme-color-light);
+    border-color: #fff;
 }
 
 .whatsapp {
@@ -30149,4 +30160,8 @@ ul.social-icon {
 
 .text-warning {
     color: #b4cb1b !important;
+}
+
+.bg-light {
+    background-color: #060b0c38 !important;
 }
