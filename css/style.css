@@ -29904,15 +29904,15 @@ i.fa-solid.fa-check {
 }
 
 i.fa-solid.fa-1,
-.fa-2,
-.fa-3,
-.fa-4,
-.fa-5,
-.fa-6,
-.fa-7,
-.fa-8,
-.fa-9,
-.fa-0 {
+i.fa-solid.fa-2,
+i.fa-solid.fa-3,
+i.fa-solid.fa-4,
+i.fa-solid.fa-5,
+i.fa-solid.fa-6,
+i.fa-solid.fa-7,
+i.fa-solid.fa-8,
+i.fa-solid.fa-9,
+i.fa-solid.fa-0 {
     background-color: var(--theme-color2);
     color: #eef0fc;
     width: 21px;
