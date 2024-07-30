@@ -30255,7 +30255,7 @@ ul.social-icon {
     .box-tabs-element .nav-tab-el2 {
         margin-bottom: 19px;
         display: flex;
-        gap: 12px;
+        gap: 12px !important;
         border-bottom: 0px solid rgba(225, 225, 225, 1);
     }
 }
