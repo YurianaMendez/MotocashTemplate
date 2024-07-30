@@ -30242,3 +30242,20 @@ ul.social-icon {
         border-bottom: 0px solid rgba(225, 225, 225, 1);
     }
 }
+
+@media (max-width: 768px) {
+    .box-tabs-element.box-tabs-element-3 {
+        background: #fff;
+        border-radius: 16px;
+        padding: 15px;
+        margin-top: 20%;
+        width: 100%;
+        height: 500px !important;
+    }
+    .box-tabs-element .nav-tab-el2 {
+        margin-bottom: 19px;
+        display: flex;
+        gap: 12px;
+        border-bottom: 0px solid rgba(225, 225, 225, 1);
+    }
+}
