@@ -29911,7 +29911,7 @@ span.sub-title.fadeInDown.text-banner {
     border-radius: 16px;
     width: 100%;
     padding: 20px;
-    background: #b4cb1b52;
+    background: #fff;
     backdrop-filter: blur(7.5px);
     color: var(--theme-color-dark);
     font-size: 16px;
