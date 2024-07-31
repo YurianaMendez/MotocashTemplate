@@ -27874,7 +27874,7 @@ Estilo al tab original
     padding: 0;
     padding-bottom: 0px;
     border-bottom: 0;
-    background-color: #9fa7a77d;
+    background-color: #d0d3d3;
     color: var(--theme-color-dark);
     border-radius: 50%;
     width: 50px;
@@ -28426,7 +28426,7 @@ Estilo al tab original
     overflow: unset;
     height: 15px;
     border-radius: 12px;
-    background-color: #9fa7a77d;
+    background-color: #d0d3d3;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
@@ -30224,7 +30224,7 @@ ul.social-icon {
 }
 
 .bg-light {
-    background-color: #9fa7a77d !important;
+    background-color: #d0d3d3 !important;
 }
 
 .banner-thumbs {
