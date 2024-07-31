@@ -27874,7 +27874,7 @@ Estilo al tab original
     padding: 0;
     padding-bottom: 0px;
     border-bottom: 0;
-    background-color: rgba(233, 242, 255, 1);
+    background-color: #9fa7a77d;
     color: var(--theme-color-dark);
     border-radius: 50%;
     width: 50px;
@@ -28426,7 +28426,7 @@ Estilo al tab original
     overflow: unset;
     height: 15px;
     border-radius: 12px;
-    background-color: rgba(233, 242, 255, 1);
+    background-color: #9fa7a77d;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
