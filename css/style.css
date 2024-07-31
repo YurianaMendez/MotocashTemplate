@@ -6896,7 +6896,7 @@ a.btn.btn-outline-light.btn-more {
     text-align: center;
     padding: 30px 15px 30px 15px;
     border-radius: 16px;
-    border: 1px solid var(--Border, #060B0C);
+    border: 0px solid var(--Border, #060B0C);
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -6962,10 +6962,9 @@ section.boxcar-service-section.banner-style-four {
 .brand-boxcar-banner-section {
     position: relative;
     padding: 211px 0 167px;
-    background-image: url(../images/background/bg-8.png);
+    background-image: url(../images/background/bg-9.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     z-index: 9;
 }
 
@@ -9673,9 +9672,16 @@ section.boxcar-service-section.banner-style-four {
 ***/
 
 .cars-section-five {
-    position: relative;
+    /* position: relative;
     padding: 120px 0 160px;
-    background-color: var(--theme-color-dark);
+    background-color: var(--theme-color-dark); */
+    position: relative;
+    padding: 120px 0;
+    background-image: url(../images/background/bg-7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 9;
 }
 
 .cars-section-five .boxcar-title {
