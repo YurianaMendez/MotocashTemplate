@@ -53,9 +53,9 @@ Version: 1.0.0
     --headings-color: #060B0C;
     --link-color: var(--headings-color);
     --link-hover-color: var(--headings-color);
-    --title-font: 'Raleway', sans-serif;
-    --text-font: 'Raleway', sans-serif;
-    --title-font2: 'DM Sans', sans-serif;
+    --title-font: 'Raleway', 'DM Sans';
+    --text-font: 'Raleway', 'DM Sans';
+    --title-font2: 'Raleway', 'DM Sans';
     --body-font-size: 20px;
     --body-line-height: 28px;
     --body-font-weight: 400;
@@ -5390,6 +5390,7 @@ a.btn.btn-outline-light.btn-more {
     border-radius: 12px;
     width: 100%;
     background: rgb(0 0 0 / 67%);
+    text-transform: inherit;
     ;
 }
 
