@@ -9675,9 +9675,8 @@ section.boxcar-service-section.banner-style-four {
     /* position: relative;
     padding: 120px 0 160px;
     background-color: var(--theme-color-dark); */
-    position: relative;
     padding: 120px 0;
-    background-image: url(../images/background/bg-1.jpeg);
+    background-image: url(../images/background/bg-11.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
