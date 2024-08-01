@@ -5214,6 +5214,14 @@ Section Title
     background-image: url(../images/background/bg-2.png);
 }
 
+.boxcar-banner-section-v1.banner-style-three.p1 {
+    background-image: url(../images/background/bg-5.png);
+}
+
+.boxcar-banner-section-v1.banner-style-three.p2 {
+    background-image: url(../images/background/bg-3.jpeg);
+}
+
 
 /* .boxcar-banner-section-v1.banner-style-three:before {
     content: "";
@@ -6963,7 +6971,16 @@ section.boxcar-service-section.banner-style-four {
 .brand-boxcar-banner-section {
     position: relative;
     padding: 211px 0 167px;
-    background-image: url(../images/background/bg-9.png);
+    background-image: url(../images/banner/her-motorcycle.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
+}
+
+.brand-boxcar-banner-section.p1 {
+    position: relative;
+    padding: 211px 0 167px;
+    background-image: url(../images/background/bg-8.png);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 9;
@@ -9682,6 +9699,22 @@ section.boxcar-service-section.banner-style-four {
     background-size: cover;
     position: relative;
     z-index: 9;
+}
+
+.cars-section-five.p2 {
+    padding: 120px 0;
+    background-image: url(../images/banner/bg-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 9;
+}
+
+.cars-section-five.p1 {
+    position: relative;
+    padding: 120px 0 160px;
+    background-color: var(--theme-color-dark);
+    background-image: none;
 }
 
 .cars-section-five .boxcar-title {
